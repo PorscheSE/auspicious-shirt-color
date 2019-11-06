@@ -19,7 +19,7 @@ def notifySticker(message,stickerID,stickerPackageID):
 def _lineNotify(payload):
 	import requests
 	url = 'https://notify-api.line.me/api/notify'
-	token = '6ARSahoewxPO6zMNBdrsa40qJLcNxOmjYvz0ZGuzSNl'
+	token = 'bbDiYnBd6uPscxkK6hy43VV1BvemwX9ZmNzXbF9OAM7'
 	headers = {'content-type':'application/x-www-form-urlencoded','Authorization':'Bearer '+token}
 	return requests.post(url, headers=headers, data=payload)
 my_date = date.today()
