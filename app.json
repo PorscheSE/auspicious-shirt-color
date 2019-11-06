@@ -1,0 +1,19 @@
+{
+  "addons": [
+
+  ],
+  "buildpacks": [
+    {
+      "url": "heroku/python"
+    }
+  ],
+  "env": {
+  },
+  "formation": {
+  },
+  "name": "auspicious-shirt-color",
+  "scripts": {
+    "postdeploy": "python line.py"
+  },
+  "stack": "heroku-18"
+}
