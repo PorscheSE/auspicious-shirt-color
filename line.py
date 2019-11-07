@@ -22,6 +22,7 @@ def _lineNotify(payload):
 	token = 'bbDiYnBd6uPscxkK6hy43VV1BvemwX9ZmNzXbF9OAM7'
 	headers = {'content-type':'application/x-www-form-urlencoded','Authorization':'Bearer '+token}
 	return requests.post(url, headers=headers, data=payload)
+    
 my_date = date.today()
 # dt = '25/03/2012'
 # day, month, year = (int(x) for x in dt.split('/'))    
